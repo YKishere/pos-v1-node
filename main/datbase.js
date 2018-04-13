@@ -1,3 +1,8 @@
+// module.exports = {
+//     loadAllItems,
+//     loadPromotions,
+// }
+
 function loadAllItems() {
     return [
         {
@@ -51,3 +56,12 @@ function loadPromotions() {
         }
     ];
 }
+
+// module.exports = loadAllItems;
+//  module.exports = loadPromotions;
+
+module.exports = {
+    loadAllItems,
+    loadPromotions
+}
+
